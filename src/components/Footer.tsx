@@ -35,10 +35,10 @@ const Footer = () => (
       <div>
         <h4 className="mb-3 font-bold">Service Areas</h4>
         <ul className="space-y-2 text-sm text-primary-foreground/70">
-          <li>Dublin</li>
-          <li>Cork</li>
-          <li>Galway</li>
-          <li>Limerick</li>
+          <li>Edgbaston</li>
+          <li>Harborne</li>
+          <li>Bournville</li>
+          <li>Digbeth</li>
         </ul>
       </div>
 

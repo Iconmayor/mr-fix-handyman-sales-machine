@@ -1,14 +1,25 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import Services from "@/components/Services";
+import WhyChooseUs from "@/components/WhyChooseUs";
+import Testimonials from "@/components/Testimonials";
+import QuoteForm from "@/components/QuoteForm";
+import Footer from "@/components/Footer";
+import StickyCallButton from "@/components/StickyCallButton";
 
-const Index = () => {
-  return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
-  );
-};
+const Index = () => (
+  <>
+    <Navbar />
+    <main>
+      <Hero />
+      <Services />
+      <WhyChooseUs />
+      <Testimonials />
+      <QuoteForm />
+    </main>
+    <Footer />
+    <StickyCallButton />
+  </>
+);
 
 export default Index;
